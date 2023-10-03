@@ -63,7 +63,6 @@ namespace WpfTests.MVVM.ViewModel
 
         private RelayCommand _NextQBtn_Click;
         
-
         public RelayCommand NextQBtn_Click
         {
             get
