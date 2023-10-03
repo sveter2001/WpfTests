@@ -1,0 +1,31 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+using WpfTests.MVVM.Model;
+using WpfTests.Services;
+
+namespace WpfTests.MVVM.View
+{
+    /// <summary>
+    /// Логика взаимодействия для CreateTestV.xaml
+    /// </summary>
+    public partial class CreateTestV : UserControl
+    {
+        public CreateTestV()
+        {
+            InitializeComponent(); 
+        }
+    }
+}
